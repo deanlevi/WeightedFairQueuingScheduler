@@ -15,8 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Main.c">
+    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include <iostream>
+#include <vector>
+using namespace std;
+
+#include "Scheduler.h"
+#include "Queue.h"
 
 #define SUCCESS_CODE 0
 
 int main(int argc, char *argv[]) {
-	if (argc != 6) {
+	if (argc != 6) { // todo check
 		fprintf(stderr, "Not the right amount of input arguments.\nNeed to give five.\nExiting...\n"); // first is path, other five are inputs
-		//return ERROR_CODE;
+		return ERROR_CODE;
 	}
-	InitChannel(argv);
-	BindToPort();
-	HandleTraffic();
-	CloseSocketsAndWsaData();
+	cout << "asds";
 	return SUCCESS_CODE;
 }

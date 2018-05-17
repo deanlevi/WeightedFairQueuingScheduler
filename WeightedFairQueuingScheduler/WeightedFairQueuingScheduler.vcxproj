@@ -110,7 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Main.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Queue.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Queue.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Dean%27s\Documents\Visual Studio 2015\Projects\ItroductionToComputerNetworks\WeightedFairQueuingScheduler\WeightedFairQueuingScheduler\Scheduler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
